@@ -1,0 +1,456 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(14, 6, 20);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hire{
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    border: solid #874FF7 0.1px;
+    color: white;
+    font-size: 17px;
+    background: linear-gradient(to left,rgb(210, 189, 252),rgb(50, 24, 97) );
+}
+.top-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    
+}
+.left{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    justify-content: center;
+    color:rgb(150, 101, 247) ;
+
+}
+.cv{
+    height: 60px;
+    width: 220px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: rgb(216, 199, 252);
+    border: solid rgb(150, 101, 247);
+    padding: 10px;
+    font-size: 18px;
+    
+
+}
+.cv:hover{
+    background-color: rgb(150, 101, 247);
+    transition: ease-in-out 1s;
+}
+.icn{
+    display: flex;
+    gap: 6vh;
+    align-items: center;
+}
+.right{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-con{
+    height: 65vh;
+    width: 60vh;
+    border: solid rgb(150, 101, 247) 0.1px;
+    border-radius: 30px;
+    transform: rotate(5deg);
+}
+.img-con:hover{
+    transform: none;
+}
+.Services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+}
+.sev-bod{
+    width: 80%;
+    height: 17vh;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: solid rgb(107, 62, 199) 0.1px;
+}
+.sev-bod:hover{
+    background-color: rgb(107, 62, 199);
+}
+.sev-skill{
+    display: flex;
+    gap: 20px;
+}
+.works{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.box-con{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.box-yard{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-1{
+    width: 40%;
+    height: 60vh;
+    border: solid rgb(50, 24, 97) ;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: ease-in-out 1s;
+    background-image: url(Capture32.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box-1:hover{
+    transform: scale(1.04);
+}
+.box-2{
+    width: 40%;
+    height: 60vh;
+    border: solid rgb(50, 24, 97) ;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: ease-in-out 1s;
+    background-image: url(Calculator.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box-2:hover{
+    transform: scale(1.04);
+}
+.box-des1{
+    width: 90%;
+    height: 15vh;
+    border-radius: 25px;
+    z-index: 2;
+    background-color: rgb(216, 199, 252) ;
+    margin-bottom: 20px;
+    display: none;
+    
+}
+.box-des2{
+    width: 90%;
+    height: 15vh;
+    border-radius: 25px;
+    z-index: 2;
+    background-color: rgb(216, 199, 252) ;
+    margin-bottom: 20px;
+    display: none;
+    
+}
+
+.box-con{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-yard2{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-3{
+    width: 40%;
+    height: 60vh;
+    border: solid rgb(50, 24, 97) ;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: ease-in-out .5s;
+
+}
+.box-3:hover{
+    transform: scale(1.04);
+}
+.box-4{
+    width: 40%;
+    height: 60vh;
+    border: solid rgb(50, 24, 97) ;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: ease-in-out 1s;
+}
+.box-4:hover{
+    transform: scale(1.04);
+}
+.box-des3{
+    width: 90%;
+    height: 15vh;
+    border-radius: 25px;
+    z-index: 999;
+    background-color: rgb(216, 199, 252) ;
+    margin-bottom: 20px;
+    display: none;
+    
+}
+.box-3:hover ~ .box-3.box-des3{
+    display: block;
+}
+.box-des4{
+    width: 90%;
+    height: 15vh;
+    border-radius: 25px;
+    z-index: 999;
+    background-color: rgb(216, 199, 252) ;
+    margin-bottom: 20px;
+    display: none;
+    
+}
+.achive{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.edu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.exp{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.achive-box{
+    width: 65vh;
+    height: 20vh;
+    background-color: rgb(20, 12, 28);
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.achive-box:hover{
+    background-color: rgb(135, 79, 247);
+    color: white;
+}
+.achive-sec{
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(24, 11, 35);
+    margin-top: 50px;
+    
+    
+    
+}
+.skill-con{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 60vh;
+    width: 100%;
+    justify-content: center;
+
+}
+.figma{
+    width: 27vh;
+    height: 27vh;
+    border-radius: 20px;
+    background-color: rgb(20, 10, 30) ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0.2;
+    
+}
+.figma:hover{
+    opacity: 5;
+    border: solid #874FF7 0.1px;
+    background-color: #874ff746;
+}
+.python{
+    width: 27vh;
+    height: 27vh;
+    border-radius: 20px;
+    background-color: rgb(20, 10, 30) ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0.2;
+    
+}
+.python:hover{
+    opacity: 5;
+    border: solid #874FF7 0.1px;
+    background-color: #874ff746 ;
+}
+.javascript{
+    width: 27vh;
+    height: 27vh;
+    border-radius: 20px;
+    background-color: rgb(20, 10, 30) ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0.2;
+    
+}
+.javascript:hover{
+    opacity: 5;
+    border: solid #874FF7 0.1px;
+    background-color: #874ff746 ;
+}
+.react{
+    width: 27vh;
+    height: 27vh;
+    border-radius: 20px;
+    background-color: rgb(20, 10, 30) ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0.2;
+    
+}
+.react:hover{
+    opacity: 5;
+    border: solid #874FF7 0.1px;
+    background-color: #874ff746 ;
+}
+.wordpress{
+    width: 27vh;
+    height: 27vh;
+    border-radius: 20px;
+    background-color: rgb(20, 10, 30) ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0.2;
+    
+}
+.wordpress:hover{
+    opacity: 5;
+    border: solid #874FF7 0.1px;
+    background-color: #874ff746 ;
+}
+.contact{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+.con-form{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con-details{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9vh;
+    text-align: left;
+}
+form{
+    width: 80%;
+    height: 85vh;
+    background-color: rgb(20, 12, 28);
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+input{
+    height: 6vh;
+    width: 30vh;
+    background-color: black;
+    color: white;
+    
+    
+}
+input::placeholder{
+    color: white;
+}
+.msg{
+    width: 84%;
+    height: 20vh;
+    border: solid #874FF7 0.1px;
+    border-radius: 20px;
+    padding: 0;
+}
+.msg-btn{
+    width: 30vh;
+    color: white;
+    font-size: 20px;
+    height: 8vh;
+    border-radius: 40px;
+    border: solid #874FF7 0.1px;
+    background: linear-gradient(to left,rgb(210, 189, 252),rgb(50, 24, 97) );
+    margin-right: 40vh;
+}
+textarea{
+    width: 80%;
+    height: 20vh;
+    border: solid #874FF7 0.1px;
+    background-color: black;
+    color: white;
+}
