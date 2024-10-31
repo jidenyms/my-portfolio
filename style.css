@@ -18,6 +18,14 @@ ul{
     justify-content: space-between;
     
 }
+.logo{
+    width: 25vh;
+    height: 7vh;
+    background-image: url(/images/nymslogo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .hire{
     width: 130px;
     height: 50px;
@@ -171,9 +179,12 @@ ul{
     height: 15vh;
     border-radius: 25px;
     z-index: 2;
-    background-color: rgb(216, 199, 252) ;
+    background-color: rgb(107, 62, 199) ;
     margin-bottom: 20px;
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
     
 }
 .box-des2{
@@ -181,9 +192,12 @@ ul{
     height: 15vh;
     border-radius: 25px;
     z-index: 2;
-    background-color: rgb(216, 199, 252) ;
+    background-color: rgb(107, 62, 199) ;
     margin-bottom: 20px;
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
     
 }
 
@@ -209,6 +223,10 @@ ul{
     display: flex;
     flex-direction: column;
     transition: ease-in-out .5s;
+    background-image: url(/images/tiktake.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
 .box-3:hover{
@@ -232,9 +250,13 @@ ul{
     height: 15vh;
     border-radius: 25px;
     z-index: 999;
-    background-color: rgb(216, 199, 252) ;
+    background-color: rgb(107, 62, 199) ;
     margin-bottom: 20px;
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    
     
 }
 .box-3:hover ~ .box-3.box-des3{
