@@ -74,9 +74,13 @@ ul{
 .img-con{
     height: 65vh;
     width: 60vh;
-    border: solid rgb(150, 101, 247) 0.1px;
+    border: solid rgb(150, 101, 247) ;
     border-radius: 30px;
     transform: rotate(5deg);
+    background-image: url(/images/IMG-20241001-WA0010.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .img-con:hover{
     transform: none;
@@ -137,7 +141,7 @@ ul{
     display: flex;
     flex-direction: column;
     transition: ease-in-out 1s;
-    background-image: url(Capture32.PNG);
+    background-image: url(/images/Capture32.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -154,7 +158,7 @@ ul{
     display: flex;
     flex-direction: column;
     transition: ease-in-out 1s;
-    background-image: url(Calculator.PNG);
+    background-image: url(/images/Calculator.PNG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
