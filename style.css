@@ -241,6 +241,11 @@ ul{
     display: flex;
     flex-direction: column;
     transition: ease-in-out 1s;
+    background-image: url(/images/houseofdebliz.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 .box-4:hover{
     transform: scale(1.04);
