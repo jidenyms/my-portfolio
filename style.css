@@ -272,8 +272,12 @@ ul{
     height: 15vh;
     border-radius: 25px;
     z-index: 999;
-    background-color: rgb(216, 199, 252) ;
+    background-color: rgb(107, 62, 199) ;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
     
     
 }
